@@ -1,0 +1,61 @@
+{
+  "shutdown_enabled": true,
+  "limits_enabled": true,
+  "devices": [
+    {
+      "name": "Refrigerator",
+      "category": "Essential",
+      "power_w": 150.0,
+      "condition": null,
+      "limits": {
+        "max_daily_minutes": null,
+        "max_daily_activations": null,
+        "inactivity_timeout_minutes": null
+      }
+    },
+    {
+      "name": "Main Lighting",
+      "category": "Conditional",
+      "power_w": 12.0,
+      "condition": "lamp",
+      "limits": {
+        "max_daily_minutes": null,
+        "max_daily_activations": null,
+        "inactivity_timeout_minutes": null
+      }
+    },
+    {
+      "name": "Fan",
+      "category": "Conditional",
+      "power_w": 45.0,
+      "condition": "occupied",
+      "limits": {
+        "max_daily_minutes": null,
+        "max_daily_activations": null,
+        "inactivity_timeout_minutes": null
+      }
+    },
+    {
+      "name": "Television",
+      "category": "Non-essential",
+      "power_w": 80.0,
+      "condition": null,
+      "limits": {
+        "max_daily_minutes": 240,
+        "max_daily_activations": 6,
+        "inactivity_timeout_minutes": 120
+      }
+    },
+    {
+      "name": "Decorative Lighting",
+      "category": "Non-essential",
+      "power_w": 20.0,
+      "condition": null,
+      "limits": {
+        "max_daily_minutes": 240,
+        "max_daily_activations": null,
+        "inactivity_timeout_minutes": 60
+      }
+    }
+  ]
+}

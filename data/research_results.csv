@@ -1,0 +1,79 @@
+experiment,case,item,metric,value,unit,data_type
+1_boolean_validation,AND,all_inputs,total_tests,4,count,hasil_pengujian
+1_boolean_validation,AND,all_inputs,correct,4,count,hasil_pengujian
+1_boolean_validation,AND,all_inputs,accuracy,100.0,percent,hasil_pengujian
+1_boolean_validation,OR,all_inputs,total_tests,4,count,hasil_pengujian
+1_boolean_validation,OR,all_inputs,correct,4,count,hasil_pengujian
+1_boolean_validation,OR,all_inputs,accuracy,100.0,percent,hasil_pengujian
+1_boolean_validation,NOT,all_inputs,total_tests,2,count,hasil_pengujian
+1_boolean_validation,NOT,all_inputs,correct,2,count,hasil_pengujian
+1_boolean_validation,NOT,all_inputs,accuracy,100.0,percent,hasil_pengujian
+1_boolean_validation,XOR,all_inputs,total_tests,4,count,hasil_pengujian
+1_boolean_validation,XOR,all_inputs,correct,4,count,hasil_pengujian
+1_boolean_validation,XOR,all_inputs,accuracy,100.0,percent,hasil_pengujian
+1_boolean_validation,NAND,all_inputs,total_tests,4,count,hasil_pengujian
+1_boolean_validation,NAND,all_inputs,correct,4,count,hasil_pengujian
+1_boolean_validation,NAND,all_inputs,accuracy,100.0,percent,hasil_pengujian
+1_boolean_validation,NOR,all_inputs,total_tests,4,count,hasil_pengujian
+1_boolean_validation,NOR,all_inputs,correct,4,count,hasil_pengujian
+1_boolean_validation,NOR,all_inputs,accuracy,100.0,percent,hasil_pengujian
+2_security_scenarios,mode=0;door=0;motion=0,alarm,expected,0,bool,asumsi_ekspektasi
+2_security_scenarios,mode=0;door=0;motion=0,alarm,actual,0,bool,hasil_pengujian
+2_security_scenarios,mode=0;door=0;motion=1,alarm,expected,0,bool,asumsi_ekspektasi
+2_security_scenarios,mode=0;door=0;motion=1,alarm,actual,0,bool,hasil_pengujian
+2_security_scenarios,mode=0;door=1;motion=0,alarm,expected,0,bool,asumsi_ekspektasi
+2_security_scenarios,mode=0;door=1;motion=0,alarm,actual,0,bool,hasil_pengujian
+2_security_scenarios,mode=0;door=1;motion=1,alarm,expected,0,bool,asumsi_ekspektasi
+2_security_scenarios,mode=0;door=1;motion=1,alarm,actual,0,bool,hasil_pengujian
+2_security_scenarios,mode=1;door=0;motion=0,alarm,expected,0,bool,asumsi_ekspektasi
+2_security_scenarios,mode=1;door=0;motion=0,alarm,actual,0,bool,hasil_pengujian
+2_security_scenarios,mode=1;door=0;motion=1,alarm,expected,1,bool,asumsi_ekspektasi
+2_security_scenarios,mode=1;door=0;motion=1,alarm,actual,1,bool,hasil_pengujian
+2_security_scenarios,mode=1;door=1;motion=0,alarm,expected,1,bool,asumsi_ekspektasi
+2_security_scenarios,mode=1;door=1;motion=0,alarm,actual,1,bool,hasil_pengujian
+2_security_scenarios,mode=1;door=1;motion=1,alarm,expected,1,bool,asumsi_ekspektasi
+2_security_scenarios,mode=1;door=1;motion=1,alarm,actual,1,bool,hasil_pengujian
+3_energy_simulation,A_tanpa_otomatisasi,Refrigerator,on_minutes,1440,minute,hasil_simulasi
+3_energy_simulation,A_tanpa_otomatisasi,Refrigerator,energy,3.6000,kWh,hasil_simulasi
+3_energy_simulation,A_tanpa_otomatisasi,Main Lighting,on_minutes,900,minute,hasil_simulasi
+3_energy_simulation,A_tanpa_otomatisasi,Main Lighting,energy,0.1800,kWh,hasil_simulasi
+3_energy_simulation,A_tanpa_otomatisasi,Fan,on_minutes,840,minute,hasil_simulasi
+3_energy_simulation,A_tanpa_otomatisasi,Fan,energy,0.6300,kWh,hasil_simulasi
+3_energy_simulation,A_tanpa_otomatisasi,Television,on_minutes,720,minute,hasil_simulasi
+3_energy_simulation,A_tanpa_otomatisasi,Television,energy,0.9600,kWh,hasil_simulasi
+3_energy_simulation,A_tanpa_otomatisasi,Decorative Lighting,on_minutes,600,minute,hasil_simulasi
+3_energy_simulation,A_tanpa_otomatisasi,Decorative Lighting,energy,0.2000,kWh,hasil_simulasi
+3_energy_simulation,A_tanpa_otomatisasi,TOTAL,energy,5.5700,kWh,hasil_simulasi
+3_energy_simulation,A_tanpa_otomatisasi,TOTAL,saving_vs_A,0.0000,kWh,hasil_simulasi
+3_energy_simulation,A_tanpa_otomatisasi,TOTAL,saving_percent,0.00,percent,hasil_simulasi
+3_energy_simulation,B_otomatisasi,Refrigerator,on_minutes,1440,minute,hasil_simulasi
+3_energy_simulation,B_otomatisasi,Refrigerator,energy,3.6000,kWh,hasil_simulasi
+3_energy_simulation,B_otomatisasi,Main Lighting,on_minutes,720,minute,hasil_simulasi
+3_energy_simulation,B_otomatisasi,Main Lighting,energy,0.1440,kWh,hasil_simulasi
+3_energy_simulation,B_otomatisasi,Fan,on_minutes,360,minute,hasil_simulasi
+3_energy_simulation,B_otomatisasi,Fan,energy,0.2700,kWh,hasil_simulasi
+3_energy_simulation,B_otomatisasi,Television,on_minutes,360,minute,hasil_simulasi
+3_energy_simulation,B_otomatisasi,Television,energy,0.4800,kWh,hasil_simulasi
+3_energy_simulation,B_otomatisasi,Decorative Lighting,on_minutes,540,minute,hasil_simulasi
+3_energy_simulation,B_otomatisasi,Decorative Lighting,energy,0.1800,kWh,hasil_simulasi
+3_energy_simulation,B_otomatisasi,TOTAL,energy,4.6740,kWh,hasil_simulasi
+3_energy_simulation,B_otomatisasi,TOTAL,saving_vs_A,0.8960,kWh,hasil_simulasi
+3_energy_simulation,B_otomatisasi,TOTAL,saving_percent,16.09,percent,hasil_simulasi
+3_energy_simulation,C_otomatisasi_hemat_dan_batas,Refrigerator,on_minutes,1440,minute,hasil_simulasi
+3_energy_simulation,C_otomatisasi_hemat_dan_batas,Refrigerator,energy,3.6000,kWh,hasil_simulasi
+3_energy_simulation,C_otomatisasi_hemat_dan_batas,Main Lighting,on_minutes,720,minute,hasil_simulasi
+3_energy_simulation,C_otomatisasi_hemat_dan_batas,Main Lighting,energy,0.1440,kWh,hasil_simulasi
+3_energy_simulation,C_otomatisasi_hemat_dan_batas,Fan,on_minutes,360,minute,hasil_simulasi
+3_energy_simulation,C_otomatisasi_hemat_dan_batas,Fan,energy,0.2700,kWh,hasil_simulasi
+3_energy_simulation,C_otomatisasi_hemat_dan_batas,Television,on_minutes,240,minute,hasil_simulasi
+3_energy_simulation,C_otomatisasi_hemat_dan_batas,Television,energy,0.3200,kWh,hasil_simulasi
+3_energy_simulation,C_otomatisasi_hemat_dan_batas,Decorative Lighting,on_minutes,180,minute,hasil_simulasi
+3_energy_simulation,C_otomatisasi_hemat_dan_batas,Decorative Lighting,energy,0.0600,kWh,hasil_simulasi
+3_energy_simulation,C_otomatisasi_hemat_dan_batas,TOTAL,energy,4.3940,kWh,hasil_simulasi
+3_energy_simulation,C_otomatisasi_hemat_dan_batas,TOTAL,saving_vs_A,1.1760,kWh,hasil_simulasi
+3_energy_simulation,C_otomatisasi_hemat_dan_batas,TOTAL,saving_percent,21.11,percent,hasil_simulasi
+3_energy_simulation,assumption,Refrigerator,power,150,W,asumsi
+3_energy_simulation,assumption,Main Lighting,power,12,W,asumsi
+3_energy_simulation,assumption,Fan,power,45,W,asumsi
+3_energy_simulation,assumption,Television,power,80,W,asumsi
+3_energy_simulation,assumption,Decorative Lighting,power,20,W,asumsi
